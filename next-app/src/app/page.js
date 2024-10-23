@@ -4,9 +4,7 @@ export default function Home() {
   return (
 
     <main className={styles.main}>
-     
-      <h1>Events , Function And State</h1>
-      <button>Click</button>
+    <h1>Basic Routing | Make New Page </h1>
     </main>
   );
 }
