@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <h1>Fetch Data With API in Client Component</h1>
-      <Link href="/productlist">Go To Product List</Link>
+      <Link href="/serverapilist">Go To Server API List List</Link>
     </div>
   );
 }
