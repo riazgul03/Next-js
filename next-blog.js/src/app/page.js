@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div>
-      <h1>GenerateMetadata in Next js</h1>
+      <h1>Script Componenet in Next js</h1>
     </div>
   );
 }
