@@ -17,3 +17,14 @@ export async function PUT(request, content) {
     }
     return NextResponse.json({ result: payload, success: true }, { status: 200 })
 }
+
+export async function DELETE(request, content) {
+    let id = content.params.id
+
+    if (id) {
+        return NextResponse.json({ result: "User deleted", success: true }, { status: 200 })
+    } else {
+        return NextResponse.json({ result: "Internal error,plaese try again after sometime", success: false }, { status: 400 })
+
+    }
+}
